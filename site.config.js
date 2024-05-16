@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Revanth Ratna Kireeti Karri",
-    image: "/notion-avatar-1715780866585.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Security Operations Enthusiast",
     bio: "",
     email: "k.revanthratnakireeti@gmail.com",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "KRRKireeti's Security Logs",
-    description: "welcome to My Security Logs!",
+    description: "welcome to Blog!",
   },
 
   // CONFIG configration (required)
@@ -30,7 +30,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID || "",
+    pageId: process.env.NOTION_PAGE_ID,
   },
 
   // plugin configuration (optional)
