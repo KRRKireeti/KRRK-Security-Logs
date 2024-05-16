@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "KRRKireeti's Security Logs",
-    description: "welcome to Blog!",
+    description: "welcome to my Blog!",
   },
 
   // CONFIG configration (required)
@@ -53,11 +53,11 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
+      repo: 'KRRKireeti/KRRK-Security-Logs',
+      'issue-term': 'og:title',
+      label: '💬 Utterances',
     },
   },
   cusdis: {
