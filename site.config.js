@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `KRRKireeti's Security Logs`,
-      href: "https://github.com/KRRKireeti/Documentation",
+      name: ``,
+      href: "",
     },
   ],
   // blog setting (required)
