@@ -3,7 +3,7 @@ import React from "react"
 import {
   AiFillLinkedin,
   AiOutlineGithub,
-  AiOutlineInstagram,
+  AiOutlineTwitter,
   AiOutlineMail,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
@@ -26,14 +26,14 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.twitter && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`https://www.x.com/${CONFIG.profile.instagram}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <AiOutlineTwitter className="icon" />
+            <div className="name">twitter</div>
           </a>
         )}
         {CONFIG.profile.email && (
