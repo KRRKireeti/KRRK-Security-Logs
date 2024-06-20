@@ -9,6 +9,7 @@ const CONFIG = {
     linkedin: "KRRKireeti",
     github: "KRRKireeti",
     instagram: "",
+    twitter: "KRRKireeti",
   },
   projects: [
     {
@@ -18,8 +19,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "KRRKireeti's Security Logs",
-    description: "welcome to my Blog!",
+    title: "KRRK's Security Logs",
+    description: "Welcome to my Blog!",
   },
 
   // CONFIG configration (required)
