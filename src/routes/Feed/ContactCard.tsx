@@ -26,16 +26,6 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-        {CONFIG.profile.twitter && (
-          <a
-            href={`https://www.x.com/${CONFIG.profile.twitter}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter className="icon" />
-            <div className="name">twitter</div>
-          </a>
-        )}
         {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
@@ -55,6 +45,16 @@ const ContactCard: React.FC = () => {
           >
             <AiFillLinkedin className="icon" />
             <div className="name">linkedin</div>
+          </a>
+        )}
+        {CONFIG.profile.twitter && (
+          <a
+            href={`https://www.x.com/${CONFIG.profile.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter className="icon" />
+            <div className="name">twitter</div>
           </a>
         )}
       </StyledWrapper>
