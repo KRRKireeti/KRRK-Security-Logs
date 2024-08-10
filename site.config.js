@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Revanth R K Karri",
     image: "/avatar.svg",
     role: "Security Operations Intern",
-    bio: "A Fresher Giving his All to Start his Career in the Cybersecurity Domain",
+    bio: "", //A Fresher Giving his All to Start his Career in the Cybersecurity Domain
     email: "k.revanthratnakireeti@gmail.com",
     linkedin: "KRRKireeti",
     github: "KRRKireeti",
