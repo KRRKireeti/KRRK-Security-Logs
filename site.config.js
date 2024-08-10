@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Revanth Ratna Kireeti Karri",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "Revanth R K Karri",
+    image: "/avatar.svg",
     role: "Security Operations Intern",
-    bio: "",
+    bio: "A Fresher Giving his All to Start his Career in the Cybersecurity Domain",
     email: "k.revanthratnakireeti@gmail.com",
     linkedin: "KRRKireeti",
     github: "KRRKireeti",
