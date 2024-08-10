@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Revanth R K Karri",
+    name: "K Revanth R Kireeti",
     image: "/avatar.svg",
     role: "Security Operations Intern",
     bio: "", //A Fresher Giving his All to Start his Career in the Cybersecurity Domain
